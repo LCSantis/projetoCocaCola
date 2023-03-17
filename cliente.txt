@@ -1,0 +1,28 @@
+Pedido: 0001
+Cliente: Coca-Cola
+
+
+Clinte (Coca-Cola) precisa de:
+1 - Menu-Hamburguer
+Descrição: Lado esquerdo superior!
+
+2 - Menu Dropdown
+Descrição: Lado direito superior!
+
+3 - Página de Cadastro
+Descrição: CSS -> Baseado na Home!
+
+4 - Página de Login
+Descrição: CSS -> Baseado na Home!
+
+5 - Páginas do Menu-Hamburguer
+Descrição: Criar páginas que serão acessadas diretamente do Menu-Hamburguer;
+
+6 - Páginas do Menu-Dropdown
+Descrição: Criar páginas que serão acessadas diretamente do Dropdown
+
+7 - Footer
+Descrição: Inserir Texto ou imagens que serão direcionadas(os) as redes sociais
+Por exemplo: Instagram, FaceBook e Twitter.
+
+OBSERVAÇÃO: O cliente já mandou o projeto original, temos que inserir os 7 itens no mesmo!
