@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cadastro.css" />
+    <link rel="shortcut icon" href="./img/favicoca.png" type="image/x-icon">
+    <title>Teste Cadastro</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Criar uma conta</h1>
+        <p>
+          Por favor preencha seu endereço de e-mail e clique em "verificar
+          código". Enviaremos um código de verificação para esse endereço para
+          que possamos confirmar que você possui ele. O código irá expirar em 5
+          minutos.
+        </p>
+      </header>
+      <div class="form-control">
+        <form action="">
+          <div class="varific">
+            <div class="input-box">
+              <label for="email">E-mail<sup>*</sup></label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <button type="submit">Enviar código de verificação</button>
+          </div>
+          <div class="input-box-grid">
+            <div class="input-box">
+              <label for="name">Nome<sup>*</sup></label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="input-box">
+              <label for="lastname">Sobrenome<sup>*</sup></label>
+              <input type="text" name="lastname" id="lastname" />
+            </div>
+            <div class="input-box">
+              <label for="tel">Telefone<sup>*</sup></label>
+              <input type="tel" name="tel" id="tel" />
+            </div>
+            <div class="input-box">
+              <label for="">Data de nascimento<sup>*</sup></label>
+              <ul>
+                <li>
+                  <select name="day" id="day">
+                    <option value="">Dia</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </li>
+                <li>
+                  <select name="month" id="month">
+                    <option value="">Mês</option>
+                    <option value="janeiro">janeiro</option>
+                    <option value="fevereiro">fevereiro</option>
+                    <option value="março">março</option>
+                    <option value="abril">abril</option>
+                    <option value="maio">maio</option>
+                    <option value="junho">junho</option>
+                    <option value="julho">julho</option>
+                    <option value="agostp">agostp</option>
+                    <option value="setembro">setembro</option>
+                    <option value="outubro">outubro</option>
+                    <option value="novembro">novembro</option>
+                    <option value="dezembro">dezembro</option>
+                  </select>
+                </li>
+                <li>
+                  <select name="year" id="year">
+                    <option value="">Ano</option>
+                    <option value="1978">1978</option>
+                    <option value="1979">1979</option>
+                    <option value="1980">1980</option>
+                    <option value="1981">1981</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+            <div class="input-box">
+              <label for="cpf">CPF<sup>*</sup></label>
+              <input type="number" name="cpf" id="cpf" />
+            </div>
+            <div class="input-box">
+              <label for="state">Estado<sup>*</sup></label>
+              <input type="text" name="state" id="state" />
+            </div>
+            <div class="input-box">
+              <label for="city">Cidade<sup>*</sup></label>
+              <input type="text" name="city" id="city" />
+            </div>
+            <div class="input-box">
+              <label for="password">Senha<sup>*</sup></label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <div class="input-box">
+              <label for="password-confir">Confirmar senha<sup>*</sup></label>
+              <input
+                type="password"
+                name="password-confir"
+                id="password-confir"
+              />
+            </div>
+          </div>
+          <div class="input-check">
+            <input type="checkbox" name="" id="" value="notícias" />Aceito
+            receber notícias e novidades da Coca-Cola no meu e-mail e Whatsapp,
+            bem como aceito os <a href="#">termos de marketing</a>.
+          </div>
+          <div class="input-check">
+            <input type="checkbox" name="" id="" value="termos" />Li e aceito os
+            regulamentos e concordo com a política de privacidade e termos de
+            uso do site.
+          </div>
+          <div class="buttons">
+            <button type="submit" id="continue">Continuar</button>
+            <button id="cancel">Cancelar</button>
+          </div>
+        </form>
+        <div class="up-footer">
+          <div class="up-footer-confirm">
+            <p>Já tem conta?</p>
+            <a href="./login.html">Entre aqui.</a>
+          </div>
+          <p>
+            Este site é protegido pelo reCAPTCHA e a
+            <a href="#">Política de Privacidade</a> e os
+            <a href="#">Termos do Serviço</a> se aplicam.
+          </p>
+        </div>
+        <footer>
+          <img src="./img/coca3.png" alt="" class="logo" />
+          <ul>
+            <li><a href="#">Termos de Uso</a></li>
+            <li><a href="#" class="trave">Privacidade</a></li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

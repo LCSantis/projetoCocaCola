@@ -1,41 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" 
-          content="IE=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com" 
-          crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" 
-          href="style.css">
-    <title>Coca-cola</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/favicoca.png" type="image/x-icon">
+    <title>Teste Coca-Cola</title>
 </head>
-
 <body>
-    <img src="./img-cocacola/background-image.png" alt="logo Coca-cola" class="background-image">
+    <img src="./img/coca-cola-background.png" alt="" class="background-image">
     <header>
-        <nav>
-            <img src="./img-cocacola/menu-burger.png" alt="menu hamburger" class="menu-burger">
-            <span class="menu-text">MENU</span>
+        <a href="https://www.coca-cola.com.br/" target="_blank"><img src="./img/logococa.png" class="logo" alt="Logo Coca-Cola"></a>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar"><img src="./img/menu-burger.svg" alt="" id="invert"></label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">services</a>
+                    <ul>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">services</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">pages</a>
+                    <ul>
+                        <li><a href="#">pages</a></li>
+                        <li><a href="#">pages</a></li>
+                        <li><a href="#">pages</a></li>
+                        <li><a href="#">pages</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">gallery</a>
+                    <ul>
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">gallery</a></li>
+                    </ul>
+                </li>
+                <li><a href="./login.html">Entrar</a></li>
+            </ul>
         </nav>
+        
     </header>
     <main>
-        <h2 class="content-text">
-            Things go better with
-        </h2>
-        <img src="img/bottle.png" alt="garrafa Coca-cola"  class="content-image">
+        <h2 class="content-text">Things go better with</h2>
+        <img
+          class="content-image"
+          src="img/garrafa.png"
+          alt="Garrafa-Coca-cola"
+        />
+
     </main>
     <footer>
-        <img src="img/map.svg"
-             alt="mundo" 
-             class="map-image">
+      <div class="social-links">
+        <ul>
+            <li><a target="_blank" href="https://instagram.com/cocacola_br/"><img src="./img/insta2.png" alt=""></a></li>
+            <li><a target="_blank" href="https://twitter.com/cocacola_br/"><img src="./img/twitter3.png" alt=""></a></li>
+            <li><a target="_blank" href="https://facebook.com/cocacolabr/"><img src="./img/face3.png" alt=""></a></li>
+            <li><a target="_blank" href="https://youtube.com/cocacola"><img src="./img/you2.png" alt=""></a></li>
+        </ul>
+        <div class="map-container">
+            <img src="img/map.svg" alt="Mundo" class="map-image">
+        </div>
+      </div>
+       
     </footer>
 </body>
-
 </html>
