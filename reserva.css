@@ -1,0 +1,176 @@
+#browse_menu {
+    width: 75vw;
+    margin-top: 30px;
+  }
+  
+  // Configuraçoes menu Desktop
+  ul{
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    font: bold 1em 'Montserrat', sans-serif;
+    color: #FFFFFF;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  nav ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+  
+  nav ul li:hover ul {
+    display: block;
+  }
+  
+  nav ul li ul li {
+    display: block;
+  }
+  
+  .menu_desktop {
+    margin-left: 15px;
+  }
+  
+  .big_menu {
+    float: right;
+  }
+  
+  //Configurações menu Mobile
+  div {
+    display: none;
+  }
+  
+  .menu_line {
+    margin-bottom: 4px;
+    width: 1.3em;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+  }
+  
+  .menu_line2 {
+    margin-bottom: 4px;
+    width: 2em;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+  }
+  
+  
+  
+  .item_menu {
+    font: bold 1.3em 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  
+  
+  .item_menu:hover {
+    cursor: pointer;
+    text-shadow: 10px 10px 10px #00000070;
+    transition: 0.5s;
+  }
+  
+  .hidden_list {
+    display: none;
+  }
+  
+  .show_list {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: linear-gradient(180deg, rgba(218, 59, 63, 0) 15.06%, #DA3B3F 100%), linear-gradient(179.29deg, #CF2425 11.93%, rgba(207, 36, 37, 0) 99.39%);
+}
+
+body {
+  margin: auto;
+  height: 100vh;
+  max-width: 768px;
+  background: url('https://github.com/LCSantis/figma-to-website-coca-cola/blob/main/02-coca-cola/img/background-image.png?raw=true') no-repeat center;
+  background-size: contain;
+
+}
+
+main {
+  height:100vh;
+  width: 90vw;
+  margin: auto;
+  background-image: url('https://github.com/LCSantis/figma-to-website-coca-cola/blob/main/02-coca-cola/img/coca-cola.png?raw=true');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+header {
+  display: block;
+}
+
+#menu {
+  border: 1px solid black;
+  margin-top: 15px;
+}
+
+menu > ul {
+  list-style-type: none;
+}
+
+menu > ul > li > a {
+  display: block;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #FFFFFF;
+}
+
+#title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  color: #FFFFFF;
+  width: 212px;
+
+  /*
+  position: absolute;
+  left: 50%;
+  top: 45%;
+
+  transform: translate(-150%);
+  */
+}

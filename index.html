@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media-query.css">
+  <title>Fixando Conhecimentos</title>
 </head>
 <body>
-    <header>
-        <menu>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-        </menu>
-    </header>
+  <header>
+    <menu>
+      <!-- Desenho de linhas do menu mobile -->
+      <section class="lines">
+        <div class="menu_line"></div>
+        <div class="menu_line2"></div>
+        <div class="menu_line"></div>
+      </section>
+
+      <ul class="menu_items">
+        <!-- Menu -->
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">NOTÍCIAS</a></li>
+        <li><a href="#">ENTRETENIMENTO</a></li>
+        <li><a href="#">FALE CONOSCO</a></li>
+        <li><a href="#">ENTRAR</a></li>
+      </ul>
+
+      <section id="menus">
+        <ul id="menu_home">
+          <li>Home 1</li>
+          <li>Home 2</li>
+          <li>Home 3</li>
+        </ul>
+        <ul id="menu_noticias">
+          <li>Notícias 1</li>
+          <li>Notícias 2</li>
+          <li>Notícias 3</li>
+        </ul>
+        <ul id="menu_entretenimento">
+          <li>Entretenimento 1</li>
+          <li>Entretenimento 2</li>
+          <li>Entretenimento 3</li>
+        </ul>
+        <ul id="menu_fale_conosco">
+          <li>Fale Conosco 1</li>
+          <li>Fale Conosco 2</li>
+          <li>Fale Conosco 3</li>
+        </ul>
+      </section>
+
+    </menu>
+  </header>
+  <main>
+    <!-- Frase ao lado da garrafa -->
+    <h1>Things go better with</h1>
+    <picture>
+      <img id="coke-picture" src="https://github.com/LCSantis/figma-to-website-coca-cola/blob/main/02-coca-cola/img/coca-cola.png?raw=true" alt="Imagem garrafa de Coca-Cola">
+    </picture>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,120 @@
+
+          <!-- Menu para Mobile -->
+          <ul id="small_screen_hidden">
+            <div id="menu"> 
+            
+              <div class="menu_line"></div>
+              <div class="menu_line2"></div> <!-- Desenho de linhas do menu -->
+              <div class="menu_line"></div>
+        
+              <ul class="hidden_list"> 
+                <li class="item_menu">Produtos</li>
+                <li class="item_menu">Promoções</li> <!-- Itens do menu -->
+                <li class="item_menu">Lojas</li>
+                <li class="item_menu">Sobre Nós</li>
+              </ul>
+            </div>
+          </ul>
+
+
+
+          <nav id="browse_menu">
+
+            <!-- Menu para Desktop -->
+            <ul class="big_menu">
+  
+                <li><a href="#" class="menu_desktop">HOME</a>
+                  <ul>
+                    <li><a href="#">Subitem de menu 1</a></li>
+                    <li><a href="#">Subitem de menu 2</a></li>
+                    <li><a href="#">Subitem de menu 3</a></li>
+                  </ul>
+                </li>
+                
+                <li>
+                  <a href="#" class="menu_desktop">NOTÍCIAS</a>
+                  <ul>
+                    <li><a href="#">Subitem de menu 1</a></li>
+                    <li><a href="#">Subitem de menu 2</a></li>
+                    <li><a href="#">Subitem de menu 3</a></li>
+                  </ul>
+                </li>
+                
+                <li><a href="#" class="menu_desktop">ENTRETENIMENTO</a>
+                  <ul>
+                    <li><a href="#">Subitem de menu 1</a></li>
+                    <li><a href="#">Subitem de menu 2</a></li>
+                    <li><a href="#">Subitem de menu 3</a></li>
+                  </ul>
+                </li>
+                
+                <li><a href="#" class="menu_desktop">FALE CONOSCO</a>
+                  <ul>
+                    <li><a href="#">Subitem de menu 1</a></li>
+                    <li><a href="#">Subitem de menu 2</a></li>
+                    <li><a href="#">Subitem de menu 3</a></li>
+                  </ul>
+                </li>
+                
+                <li><a href="#" class="menu_desktop">ENTRAR</a>
+                  <ul>
+                    <li><a href="#">Subitem de menu 1</a></li>
+                    <li><a href="#">Subitem de menu 2</a></li>
+                    <li><a href="#">Subitem de menu 3</a></li>
+                  </ul>
+                </li>
+  
+            </ul>
+            
+          </nav>
+
+
+
+
+
+          <!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo Site Coca Cola</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <menu id="menu">
+          <ul id="menu_items">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">NOTÍCIAS</a></li>
+            <li><a href="#">ENTRETENIMENTO</a></li>
+            <li><a href="#">FALE CONOSCO</a></li>
+            <li><a href="#">ENTRAR</a></li>
+          </ul>
+        </menu>
+      </header>
+        <h1 id="title">Things go better with</h1>
+    </main>
+    <script src="script.js"></script>
+  </body>
+
+</html>
+
+
+
+const menu = document.querySelector(".menu");
+const list = document.querySelector(".hidden_list")
+
+menu.addEventListener("mouseover", () => {
+  list.classList.add("show_list");
+})
+
+menu.addEventListener("mouseout", () => {
+  list.classList.remove("show_list");
+})
