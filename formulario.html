@@ -4,15 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Cadastro</title>
 </head>
 <body>
-    <main>
+    <main id="main_form">
         <header>
             <h1>Criar Uma Conta</h1>
         </header>
         <form action="" method="post">
-            <label for=""></label>
+            <label for="name">Nome Completo</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome completo...">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail...">
+
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Crie uma senha...">
+
+            <label for="password">Digite Novamente</label>
+            <input type="password" name="password" id="password" placeholder="Crie uma senha...">
+
+            <input type="button" value="Cadastrar">
         </form>
     </main>
 </body>

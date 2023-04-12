@@ -90,3 +90,11 @@ main > picture {
   display: block;
   margin: auto;
 }
+
+
+#main_form {
+  border: 1px solid black;
+  max-width: 300px;
+
+  
+}
