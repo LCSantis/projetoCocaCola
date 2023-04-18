@@ -105,7 +105,7 @@ main > picture {
 }
 
 form {
-  width: 400px;
+  width: 500px;
   margin: auto;
   margin-top: 50px;
 }
@@ -117,12 +117,28 @@ form > p {
   padding-bottom: 30px;
 }
 
-form > p > input {
-  font-size: 20px;
+.text-area {
+  font-size: 15px;
   float: right;
-  width: 200px
+  width: 250px
 }
 
 #button {
-  width: 50px;
+  text-align: center;
+}
+
+#button > input {
+  font-size: 25px;
+  color: #FFFFFF;
+  background-color: #DA3B3F50;
+  border-radius: 0px 8px;
+  border: none;
+}
+
+#button > input:hover {
+  text-shadow: 1px 1px 5px #FFFFFF60;
+}
+
+#button > input:active {
+  box-shadow: 2px 2px 5px #00000050;
 }
