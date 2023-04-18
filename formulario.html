@@ -9,23 +9,39 @@
 </head>
 <body>
     <main id="main_form">
-        <header>
-            <h1>Criar Uma Conta</h1>
+        <header id="title-form">
+            <h1>Crie Uma Conta</h1>
         </header>
-        <form action="" method="post">
-            <label for="name">Nome Completo</label>
-            <input type="text" name="name" id="name" placeholder="Digite seu nome completo...">
+        <form action="cadastro.php" method="post" autocomplete="off">
+            <p>
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome..." required>
+            </p>
 
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu e-mail...">
+            <p>
+                <label for="lastname">Sobrenome:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome..." required>
+            </p>
 
-            <label for="password">Senha</label>
-            <input type="password" name="password" id="password" placeholder="Crie uma senha...">
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail..." required>
+            </p>
 
-            <label for="password">Digite Novamente</label>
-            <input type="password" name="password" id="password" placeholder="Crie uma senha...">
+            <p>
+                <label for="password">Senha:</label>
+                <input type="password" name="password" id="password" placeholder="Crie uma senha..." required>
+            </p>
 
-            <input type="button" value="Cadastrar">
+            <p>
+    
+                <label for="password">Confirmar Senha:</label>
+                <input type="password" name="password" id="password" placeholder="Confirme a senha..." required>
+            </p>
+
+            <p>
+                <input id="button" type="button"value="Cadastrar">
+            </p>
         </form>
     </main>
 </body>

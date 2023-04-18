@@ -91,10 +91,38 @@ main > picture {
   margin: auto;
 }
 
+#title-form {
+  margin: auto;
+  margin-top: 80px;
+  width: 400px;
+}
 
-#main_form {
-  border: 1px solid black;
-  max-width: 300px;
+#title-form > h1{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
 
-  
+form {
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+form > p {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+
+form > p > input {
+  font-size: 20px;
+  float: right;
+  width: 200px
+}
+
+#button {
+  width: 50px;
 }
